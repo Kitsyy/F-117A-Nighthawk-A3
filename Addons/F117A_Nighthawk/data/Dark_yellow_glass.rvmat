@@ -1,0 +1,19 @@
+specular[] = {1,1,1,1};
+specularPower = 1;
+PixelShaderID = "NormalMapDetailSpecularDIMap";
+VertexShaderID = "NormalMap";
+class Stage1
+{
+  texture="F117A_Nighthawk\data\Dark_yellow_glass_NO.paa";
+  uvSource="tex";
+};
+class Stage2
+{
+  texture="F117A_Nighthawk\data\Dark_yellow_glass_DT.paa";
+  uvSource="tex";
+};
+class Stage3
+{
+  texture="F117A_Nighthawk\data\Dark_yellow_glass_SMDI.paa";
+  uvSource="tex";
+};
