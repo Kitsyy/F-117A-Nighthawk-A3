@@ -213,7 +213,7 @@ class CfgVehicles
 		{
 			initFov=0.89999998;
 			initAngleX=0;
-			minAngleX=-40;
+			minAngleX=-45;
 			maxAngleX=85;
 			initAngleY=0;
 			minAngleY=-130;
@@ -237,9 +237,7 @@ class CfgVehicles
 					{
 						maxweight=2500;
 						hardpoints[]=
-						{
-							"B_BOMB_PYLON"
-						};
+						{"B_BOMB_PYLON", "B_ASRAAM"};
 						attachment="PylonMissile_1Rnd_BombCluster_01_F";
 						bay=-1;
 						priority=2;
@@ -253,5 +251,13 @@ class CfgVehicles
 				};
 			};
 		};
+	};
+};
+class CfgFunctions
+{
+	tag = "Camera_Switch";
+	class Actions
+	{
+		file = "\F117A_Nighthawk\functions\FlirDlir.sqf";
 	};
 };
