@@ -1,5 +1,5 @@
 ambient[]={1,1,1,1};
-diffuse[]={2,2,2,2};
+diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,0};
 specular[]={1,1,1,1};
@@ -28,7 +28,7 @@ class Stage4
 };
 class Stage5
 {
-  texture="F117A_Nighthawk\data\Gray_buttons_SMDI.paa";
+  texture="F117A_Nighthawk\data\Left_Side_Gauges_Metal_SMDI.paa";
   uvSource="tex";
 };
 class Stage6

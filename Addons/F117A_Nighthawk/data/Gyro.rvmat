@@ -1,7 +1,7 @@
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
-emmisive[]={5,5,5,5};
+emmisive[]={0,0,0,0};
 specular[]={1,1,1,1};
 specularPower=1;
 PixelShaderID = "Super";
@@ -33,19 +33,11 @@ class Stage5
 };
 class Stage6
 {
-  texture = "#(ai,64,64,1)fresnel(3.48,2.79)";
-  uvSource = "tex";
+texture="#(ai,64,64,1)fresnel(1.44,4.35)";
+uvSource="tex";
 };
 class Stage7
 {
-  texture = "a3\data_f\env_land_co.paa";
-  useWorldEnvMap = "true";
-  uvSource = "tex";
-  class uvTransform
-  {
-    aside[] = {1,0,0};
-    up[] = {0,1,0};
-    dir[] = {0,0,1};
-    pos[] = {0,0,0};
-  };
+texture="a3\data_f\env_land_co.paa";
+uvSource="tex";
 };

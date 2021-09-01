@@ -8,7 +8,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-  texture="F117A_Nighthawk\data\Headlight_glass_NO.paa";
+  texture="F117A_Nighthawk\data\Headlight_glass_NOHQ.paa";
   uvSource="tex";
 };
 class Stage2
